@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Myfirst webpage</title>
+       <link rel="stylesheet" href="style.css">
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+       <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,200;1,500&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+       <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    </head>
+    <body>
+<div class="header">
+<div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpg" width="125px"></a>
+        </div>
+        <nav>
+            <ul id="MenuItems">
+                <li><a href="D:\Application\VS\Project\products.html">HOME</a></li>
+                <li><a href="D:\Application\VS\Project\visit.html">About</a></li>
+                <li><a href="D:\Application\VS\Project\contact.html">Contact</a></li>
+                <li><a href="D:\Application\VS\Project\Login.html">LOGIN</a></li>
+            </ul>
+        </nav>
+       <a href="D:\Application\VS\Project\bag.html"><img src="images/cart.png" width="30px" height="30px"></a>
+        <img src="images/menu.png" class="menu-icon" 
+        onclick="menutoggle()">
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <h1>World Biggest <br> Farm Land!</h1>
+            <p>Making Farm Easy now, Get Different things from this website. <br>
+            Success isn't always about greatness.It's about conistency</p>
+            <a href="D:\Application\VS\Project\visit.html"class="btn">VIST US TO KNOW MORE &#8594;</a>
+        </div>
+        <div class="col-2">
+            <img src="images/Farm1.jpg">
+        </div>
+    </div>
+ </div>
+</div>
+
+
+     <!------------------------------------------BROWSE--------------------------------------------> 
+
+        <section class="Browse">
+             <h1>Browse Farm Products</h1>
+             <p>Fresh Vegetables are always Live</p>
+
+             <div class="row">
+                 <div class="Browse-col">
+                    <a href="D:\Application\VS\Project\Vegetables.html">
+                     <img src="images/Vegetables.png">
+                     </a>
+                     <h3>Vegetables</h3>
+                 </div>
+                 <div class="Browse-col">
+                     <a href="D:\Application\VS\Project\Fruits.html">
+                    <img src="images/Fruits.png">
+                </a>
+                    <h3>Fruits</h3>
+                </div>
+                <div class="Browse-col">
+                    <a href="D:\Application\VS\Project\Poultry.html">
+                    <img src="images/Poultry.png">
+                </a>
+                    <h3>Poultry</h3>
+                </div>
+                <div class="Browse-col">
+                    <a href="D:\Application\VS\Project\Livestocks.html">
+                    <img src="images/Livestocks.png">
+                    </a>
+                    <h3>Llivestocks</h3>
+                </div><div class="Browse-col">
+                    <a href="D:\Application\VS\Project\Grains.html">
+                    <img src="images/Grains.png">
+                </a>
+                    <h3>Grains</h3>
+                </div>
+             </div> 
+        </section>
+        <!------------------------------------Nearby Farms------------------------------->
+        <section class="Nearby">
+            <h1> Nearby Farms</h1>
+            <h3>Articles</h3>
+            <div class="row">
+            <div class="Nearby-col">
+                <a href="https://guardian.ng/features/agro-care/our-commitment-to-reduce-unemployment-through-agriculture-is-real/">
+                    <img src="images/Articles1.png">
+                </a>
+                <p>‘Our commitment to reduce unemployment <br> through agriculture is real’</p>
+            </div>
+            <div class="Nearby-col">
+                <a href="https://guardian.ng/opinion/who-is-thinking-about-small-businesses-in-nigeria/">
+                    <img src="images/Articles2.jpg">
+                </a>
+                <p>Who is thinking about small businesses in Nigeria?</p>
+            </div>
+            <div class="Nearby-col">
+                <a href="https://guardian.ng/features/digital-agriculture-imperative-for-food-security-says-lagos-commissioner/">
+                    <img src="images/Articles3.jpg">
+                </a>
+                <p>Digital agriculture imperative for food security, says Lagos commissioner</p>
+            </div>
+            </div>
+        </section>
+
+         <!-----------------------Newest Products-------------------------->
+         <div class="small-container">
+               <h2 class="title">Newest Products</h2>
+             <div class="carouse1" data-flickity='{"wrapAround": true, "autoPlay": true }'>
+                     <div class="row">
+                        <div class="col-4">
+                            <img src="images/Tomatoes.jpg">
+                            <h4>Tomatoes</h4>
+                            <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                           <p>20₹</p>
+
+                         </div>
+                        <div class="col-4">
+                        <img src="images/Uqwc.jpg">
+                           <h4>Uqwc</h4>
+                         <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                             <i class="fa fa-star-half-o"></i>
+                             </div>
+                              <p>45₹</p>
+                         </div>
+                         <div class="col-4">
+                          <img src="images/Sweet potatoes.jpg">
+                           <h4>Sweet potatoes</h4>
+                         <div class="rating">
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star"></i>
+                           <i class="fa fa-star-half-o"></i>
+                           <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>25₹</p>
+                        </div>
+                        <div class="col-4">
+                           <img src="images/Guava.jpg">
+                           <h4>Guava<h4>
+                           <div class="rating">
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star"></i>
+                               <i class="fa fa-star-half-o"></i>
+                           </div>
+                           <p>30₹</p>
+                           </div>
+                           <div class="col-4">
+                               <img src="images/Live broilers.jpg">
+                               <h4>Livestocks</h4>
+                               <div class="rating">
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star"></i>
+                                   <i class="fa fa-star-o"></i>
+                               </div>
+                               <p>180₹</p>
+                               </div>
+
+                       </div>
+                          
+                        <h2 class="title">Popular Products</h2>
+            
+                        <div class="row">
+                           <div class="col-4">
+                          <img src="images/Eggs1.png">
+                         <h4>Eggs</h4>
+                          <div class="rating">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star-o"></i>
+                         </div>
+                         <p>8₹</p>
+                         </div>
+                          <div class="col-4">
+                         <img src="images/Layer.jpg">
+                         <h4>Layer</h4>
+                         <div class="rating">
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star-half-o"></i>
+                           </div>
+                         <p>160₹</p>
+                         </div>
+                         <div class="col-4">
+                            <img src="images/Cocoyam.jpg">
+                            <h4>Cocoyam</h4>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-half-o"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <p>75₹</p>
+                            </div>
+                            <div class="col-4">
+                                <img src="images/Cashew.jpg">
+                                <h4>Cashew<h4>
+                                <div class="rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star-half-o"></i>
+                                </div>
+                                <p>220₹</p>
+                                </div>
+                                
+     
+                         </div>
+                         <div class="row">
+             
+                         <div class="col-4">
+                         <img src="images/Maize.png">
+                         <h4>Maize</h4>
+                         <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-o"></i>
+                         </div>
+                         <p>100₹</p>
+                         </div>
+                         <div class="col-4">
+                          <img src="images/Eggs.jpg">
+                          <h4>Eggs</h4>
+                          <div class="rating">
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star"></i>
+                              <i class="fa fa-star-o"></i>
+                          </div>
+                          <p>100₹</p>
+                          </div>
+                          <div class="col-4">
+                              <img src="images/Cassava.png">
+                              <h4>Cassava</h4>
+                              <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star-o"></i>
+                              </div>
+                              <p>100₹</p>
+                           </div>
+                           <div class="col-4">
+                              <img src="images/Cameroonian.jpg">
+                              <h4>Cameroonian</h4>
+                              <div class="rating">
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star"></i>
+                                  <i class="fa fa-star-o"></i>
+                              </div>
+                              <p>100₹</p>
+                              </div>
+                         </div>   
+             
+             </div>
+            
+            </div>
+                  
+         
+                
+         </div>
+
+          <!-----------------------------offer----------------------------------------->
+           <div class="offer">
+               <div class="small-container">
+                   <div class="row">
+                       <div class="col-2">
+                           <img src="images/Live broilers.jpg" class="offer-img">
+                       </div>
+                       <div class="col-2">
+                            <p>Exclusively Available on Farm Fresh</p>
+                            <h1>Live broilers</h1>
+                            <small>If you dream of becoming an eagle, you follow your dreams and not the words of a bunch of chickens.
+                            </small>
+                            <a href=""class="btn">Buy Now &#8594;</a>
+                        </div>
+                   </div>
+               </div>
+           </div>
+
+           
+
+         <!---------------------------Testimonial------------------------------------->
+           <div class="testimonial">
+               <div class="small-container">
+                   <div class="row">
+                       <div class="col-3">
+                           <i class="fa fa-quote-left"></i>
+                           <p>If you were plowing a field,<br> which would you rather use? Two strong oxen or 1024 chickens?
+                            </p>
+                           <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                           </div>
+                           <img src="images/user-1.png">
+                           <h3>Swetha</h3>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>If you were plowing a field,<br> which would you rather use? Two strong oxen or 1024 chickens?
+                             </p>
+                            <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-half-o"></i>
+                             <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-2.png">
+                            <h3>Rajashekar</h3>
+                         </div>
+                         <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>If you were plowing a field,<br> which would you rather use? Two strong oxen or 1024 chickens?
+                             </p>
+                            <div class="rating">
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star"></i>
+                             <i class="fa fa-star-half-o"></i>
+                             <i class="fa fa-star-o"></i>
+                             <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-3.png">
+                            <h3>Swarupa</h3>
+                         </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+           <!-----------------------------Register------------------------------------>
+           <div class="register">
+               <div class="small-container">
+                   <div class="row">
+                       <div class="col-5">
+                          <h2>WANT TO SELL/LEASE? <br>
+                            "   REGISTER WITH US  "</h2> 
+                       </div>
+                       <a href=""class="btn">Post AGRICULTURE ADS &#8594;</a>
+                       <a href=""class="btn">Sell Now &#8594;</a>
+                       <a href=""class="btn">Post A Farm Service &#8594;</a>                       
+                        </div>
+                   </div>
+               </div>
+           <!--------------------------------footer-------------------------->
+           <div class="footer">
+               <div class="container">
+                   <div class="row">
+                       <div class="footer-col-1">
+                           <h3>Download Our App</h3>
+                           <p>Download App from Android and ios mobile phone.</p>  
+                           <div class="app-logo">
+                               <img src="images/play-store.png">
+                               <img src="images/app-store.png">
+                           </div>
+                       </div>
+                       <div class="footer-cool-2">
+                             <img src="images/logo.jpg">
+                            <p>Our Purpose Is To Sustainably Make <br>The Pleasure and Benefits Fresh Farm <br>Accessible To The Many</p>  
+                       </div>
+                       <div class="footer-col-3">
+                           <h3>Useful Links</h3>
+                           <ul>
+                               <li>Sell On Farmer</li>
+                               <li>Advertise</li>
+                               <li>Customers Safety Tips</li>  
+                           </ul>
+                       </div>
+                       <div class="footer-col-4">
+                        <h3>Follow us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>  
+                        </ul>
+                    </div>
+                    <div class="footer-cool-5">
+                        <img src="images/paypal.png">
+                  </div>
+
+                   </div>
+                   <hr>
+                   <p class="copyright">Copyright 2020 - Vinay kamutam</p>
+               </div>
+           </div>
+           
+         <!----------------------------------------- javascript for Toggle Menu  ------------------------->
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+
+            MenuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else
+                 {
+                    MenuItems.style.maxHeight = "0px";
+
+                 }
+            }
+               
+         </script>  
+        
+     </body>
+
+</html>
